@@ -1,0 +1,11 @@
+schemaVersion: "1.1"
+endpoints:
+    - name: ecommerce-rest-api-be2
+      displayName: ECOMMERCE REST API
+      service:
+        basePath: /
+        port: 8000
+      type: REST
+      networkVisibilities:
+        - Project
+        - Public
